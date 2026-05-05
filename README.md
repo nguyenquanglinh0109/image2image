@@ -56,8 +56,7 @@ flowchart LR
 ### 1. Yêu cầu hệ thống
 - **Python:** 3.10+ (Khuyến nghị Python 3.13)
 - **CUDA:** Tương thích Torch+CUDA để suy luận GPU.
-- **GPU (VRAM):** Đã kiểm thử trơn tru trên **NVIDIA RTX A4000** (yêu cầu tối thiểu 16GB VRAM để tải model FLUX 4bit + batch processing).
-- **RAM Server:** Tối thiểu **24GB**.
+- **GPU (VRAM):** Đã kiểm thử trơn tru trên **NVIDIA RTX A4000** (yêu cầu tối thiểu 24GB VRAM để tải model FLUX 4bit + batch processing)
 
 ### 2. Tải Model
 
