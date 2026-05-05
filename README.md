@@ -34,7 +34,7 @@ Dự án cung cấp REST API cho tác vụ Image-to-Image sử dụng mô hình 
 
 Kiến trúc hiện tại được thiết kế theo mô hình xử lý bất đồng bộ (Non-blocking Queue Processing).
 
-```mermaid
+```
 flowchart LR
     U[Client: Web/Postman/Service] -->|HTTP + API Key| A[FastAPI main.py]
     A -->|enqueue task| Q[Image2ImageQueue FIFO]
