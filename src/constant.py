@@ -1,0 +1,15 @@
+MODEL_ID="Disty0/FLUX.2-klein-9B-SDNQ-4bit-dynamic-svd-r32"
+SAVE_MODEL_PATH="src/models/flux_model"
+NUM_INFERENCE_STEPS=4
+GUIDANCE_SCALE=1.0
+HEIGHT=1024
+WIDTH=1024
+MEMORY_CLEANUP_INTERVAL=10
+QUEUE_BATCH_MAX_SIZE=3
+QUEUE_BATCH_MAX_WAIT_MS=2000
+PORT=8060
+TASK_RESULT_TTL_SECONDS=600  # Keep task results for 10 minutes, ttl = time to live in seconds
+TASK_RESULT_CLEANUP_INTERVAL_SECONDS=60  # Run cleanup every 60 seconds
+MAX_TASK_RESULTS=1000  # Maximum number of task results to store in memory
+API_KEY="N7@qV!z4R$y2Gm#Xk9Lp%Wd6Jh*Tb8F"
+API_KEY_NAME="X-IMG2IMG-KEY"
