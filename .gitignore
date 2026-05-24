@@ -4,6 +4,9 @@ models/
 src/models/
 src/api/
 .vscode/
+start_img2img.sh
+tailieu.md
+test_download.py
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
